@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Assessory</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<!-- Source Sans Pro font -->
+<script src="//use.edgefonts.net/source-sans-pro.js"></script>
+
+<!-- Boostrap  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" type="text/css" href="static/stylesheets/assessory.css" >
+
+<div class="full-height" id="assessory-render">
+    <style>
+      @@keyframes example {
+        0%   {background-color: #ddc;}
+        25%  {background-color: #dcd;}
+        50%  {background-color: #cdd;}
+        100% {background-color: #ddc;}
+      }
+      @@-webkit-keyframes example {
+        0%   {background-color: #ddc;}
+        25%  {background-color: #dcd;}
+        50%  {background-color: #cdd;}
+        100% {background-color: #ddc;}
+      }
+
+      .loading {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        background-color: red;
+        -webkit-animation-name: example; /* Chrome, Safari, Opera */
+        -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+        line-height: 50px;
+        padding: 50px;
+        text-align: center;
+        font-size: 32px;
+        color: #aaa;
+      }
+    </style>
+
+    <div class="loading">
+        Loading Veautiful, Scala.js and all sorts of goodies...
+    </div>
+</div>
+
+<!-- JQuery, required for Bootstrap -->
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+
+<!-- Marked, used for Markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script src="assets/vclient-fastopt.js"></script>
+
+</html>
